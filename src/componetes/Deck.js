@@ -5,7 +5,7 @@ import Pergunta from './card/Pergunta';
 
 import React from 'react';
 
-const perguntaarray=[{number:1, questiom:"O que é JSX?", answer: "Uma extensão de linguagem do JavaScript"}, {number:2, questiom:"O React é __ ", answer: "uma biblioteca JavaScript para construção de interfaces"} , {number:3, questiom:"Componentes devem iniciar com __ ", answer: "letra maiúscula"} , {number:3, questiom:"Componentes devem iniciar com __ ", answer: "letra maiúscula"}, ]
+const perguntaarray=[{number:1, questiom:"O que é JSX?", answer: "Uma extensão de linguagem do JavaScript"}, {number:2, questiom:"O React é __ ", answer: "uma biblioteca JavaScript para construção de interfaces"} , {number:3, questiom:"Componentes devem iniciar com __ ", answer: "letra maiúscula"} , {number:4, questiom:"Podemos colocar __ dentro do JSX", answer: "expressões"}, ]
 
 let teste
 
@@ -33,6 +33,8 @@ export default function Deck(){
                )}
                </div>
 
+               
+
                 <div className={styles.bottom}>
                     { <h2>{acertos.length}/4 Concluídos</h2> }
 
@@ -50,10 +52,11 @@ export default function Deck(){
                             
                         }
 
-                    })}</div>
+                    })}  </div>
+                  
+                 
 
                   
-                   
                 
                 </div>
             </div>
