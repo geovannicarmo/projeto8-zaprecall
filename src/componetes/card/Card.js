@@ -60,7 +60,7 @@ export default function Card({event, texte, perguntaarray, icon, setAcertos, ace
         <>
        
         <div  className={styles.nPegunta} >
-              <h3 >Pergunta {texte.number} {perguntaarray.number} </h3>
+              <h3 >Pergunta {perguntaarray.number} </h3>
                <ion-icon onClick={()=>setModeCard1(true)}
              
                     name={icon}></ion-icon>

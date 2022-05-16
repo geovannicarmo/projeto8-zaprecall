@@ -7,6 +7,12 @@ import React from 'react';
 
 const perguntaarray=[{number:1, questiom:"O que é JSX?", answer: "Uma extensão de linguagem do JavaScript"}, {number:2, questiom:"O React é __ ", answer: "uma biblioteca JavaScript para construção de interfaces"} , {number:3, questiom:"Componentes devem iniciar com __ ", answer: "letra maiúscula"} , {number:4, questiom:"Podemos colocar __ dentro do JSX", answer: "expressões"}, ]
 
+
+perguntaarray.sort(comparador); 
+function comparador() { 
+	return Math.random() - 0.5; 
+}
+
 let teste
 
 export default function Deck(){
