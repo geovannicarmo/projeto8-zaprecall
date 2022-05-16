@@ -1,0 +1,15 @@
+.Button{
+    width: 246px;
+    height: 54px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20%;
+    border-radius: 2px;
+
+}
+h2{
+    font-size: 18px;
+    color: #D70900;
+}

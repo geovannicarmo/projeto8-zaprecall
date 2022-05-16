@@ -1,0 +1,57 @@
+.pergunta{
+    width: 300px;
+    height: 131px;
+    background-color: #FFFFD4;
+    border-radius: 5px;
+    color: black;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#virar{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+}
+
+.meiaCerta{
+    width: 85px;
+    height: 38px;
+    background-color: #FF922E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+
+
+.buttonResposta{
+    width: 85px;
+    height: 38px;
+    background-color: #2FBE34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+
+.respostaErrada{
+    background-color: #FF3030;
+    width: 85px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+
+.buttonsResposta{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
